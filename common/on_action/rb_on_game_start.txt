@@ -16,6 +16,12 @@ rb_rum_buff = {
 						is_alive = yes
 					}
 
+					# Block `Become Conqueror`
+					add_character_flag = {
+						flag = had_laamp_conq_decision
+						years = 10
+					}
+
 					# Give Armies
 					spawn_army = {
 						levies = { # 1 stack = 1
